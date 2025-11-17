@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faktura>
+    <numer>1235754212349760</numer>
+    <miejsce_data>Warszawa, 2025-11-10</miejsce_data>
+    <termin_platnosci>2025-11-17</termin_platnosci>
+    <forma_platnosci>Przelew</forma_platnosci>
+    <data_dostawy>2025-11-10</data_dostawy>
+    <numer_konta>22 1090 1014 0000 0001 4455 7788</numer_konta>
+    
+    <sprzedawca>
+        <nazwa>Megabit Sp. z o.o.</nazwa>
+        <adres>ul. Kodowa 12<br />00-100 Warszawa</adres>
+    </sprzedawca>
+    
+    <nabywca>
+        <nazwa>Jan Kowalski - Firma "Janex"</nazwa>
+        <adres>ul. Kliencka 8/10<br />02-200 Warszawa</adres>
+    </nabywca>
+    
+    <pozycje>
+        <pozycja>
+            <nazwa>Mysz komputerowa</nazwa>
+            <pkwiu>26.20.1</pkwiu>
+            <jm>szt.</jm>
+            <ilosc>2</ilosc>
+            <cena_netto>150.00</cena_netto>
+        </pozycja>
+        <pozycja>
+            <nazwa>Klawiatura mechaniczna</nazwa>
+            <pkwiu>26.20.1</pkwiu>
+            <jm>szt.</jm>
+            <ilosc>1</ilosc>
+            <cena_netto>450.00</cena_netto>
+        </pozycja>
+        <pozycja>
+            <nazwa>Usługa serwisowa</nazwa>
+            <pkwiu>95.11.1</pkwiu>
+            <jm>godz.</jm>
+            <ilosc>2</ilosc>
+            <cena_netto>100.00</cena_netto>
+        </pozycja>
+        <pozycja>
+            <nazwa>Szkolenie z bezpieczeństwa IT</nazwa>
+            <pkwiu>85.59.1</pkwiu>
+            <jm>godz.</jm>
+            <ilosc>1</ilosc>
+            <cena_netto>300.00</cena_netto>
+        </pozycja>
+    </pozycje>
+</faktura>

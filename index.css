@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+#invoiceWrapper {
+  width: 800px;
+  height: 1131px;
+  background-image: url('faktura.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin: 20px auto;
+}
+
+.field {
+  position: absolute;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 2px;
+}
+
+
+.invoiceNumber {
+  top: 288px;
+  left: 385px;
+  font-weight: bold;
+  font-size: 13px;
+  width: 200px;
+}
+
+.issuePlace {
+  top: 90px;
+  left: 400px;
+  width: 100px;
+}
+
+.issueDate {
+  top: 90px;
+  left: 580px;
+  width: 80px;
+}
+
+.sellerName {
+  top: 165px;
+  left: 125px;
+  width: 260px;
+  font-weight: bold;
+}
+
+.sellerAddress {
+  top: 200px;
+  left: 125px;
+  width: 260px;
+  line-height: 2;
+
+}
+
+.buyerName {
+  top: 165px;
+  left: 500px;
+  width: 260px;
+  font-weight: bold;
+}
+
+.buyerAddress {
+  top: 200px;
+  left: 500px;
+  width: 260px;
+  line-height: 2;
+}
+
+.saleDate {
+  top: 340px;
+  left: 170px;
+  width: 150px;
+}
+
+.paymentMethod {
+  top: 375px;
+  left: 300px;
+  width: 80px;
+}
+
+.bankAccount {
+  top: 460px;
+  left: 195px;
+  width: 250px;
+}
+
+.paymentDue {
+  top: 405px;
+  left: 300px;
+  width: 100px;
+}
+
+
+.itemContainer {
+  top: 540px;
+  left: 88px;
+  width: 730px;
+  height: 150px;
+}
+
+.itemRow {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  font-size: 11px;
+}
+
+.itemRow .itemName {
+  position: absolute;
+  left: 40px;
+  width: 200px;
+}
+
+.itemRow .itemPKWiU {
+  position: absolute;
+  left: 180px;
+  width: 70px;
+  text-align: center;
+}
+
+.itemRow .itemJM {
+  position: absolute;
+  left: 240px;
+  width: 40px;
+  text-align: center;
+}
+
+.itemRow .itemQuantity {
+  position: absolute;
+  left: 250px;
+  width: 50px;
+  text-align: right;
+}
+
+.itemRow .itemNetPrice {
+  position: absolute;
+  left: 290px;
+  width: 70px;
+  text-align: right;
+}
+
+.itemRow .itemNetValue {
+  position: absolute;
+  left: 350px;
+  width: 80px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.totalNetto {
+  top: 690px;
+  left: 444px;
+  width: 80px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.totalDue {
+  top: 886px;
+  left: 170px;
+  width: 250px;
+  font-weight: bold;
+}
+
+.totalRemaining {
+  top: 975px;
+  left: 260px;
+  width: 250px;
+  font-weight: bold;
+}
