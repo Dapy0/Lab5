@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch('dane.xml')
+  fetch('./dane.xml')
     .then(r => r.text())
     .then(xmlStr => {
       const doc = (new DOMParser()).parseFromString(xmlStr, "text/xml");
